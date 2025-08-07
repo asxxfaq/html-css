@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body button:focus{
+            background-color: white;
+            border-radius: 1px;
+            border:2px;
+        }
+        button{
+            width: 80px;
+            height: 40px;
+            border-radius:50%;
+            border: 5px solid blanchedalmond;
+            background-color: brown;
+        }
+        p::first-line{
+            font-weight: bolder ;
+        }
+        p::first-letter{
+            font-size:35px;
+        }
+        p::before{
+            content: "😂😂";
+            color: blue;
+        }
+        p::after{
+            content: "😂😂";
+            color: brown;
+        }
+        input:focus{
+            background-color: bisque;
+        }
+        input:hover{
+            background-color: aqua;
+        }
+        input:active{
+            background-color: brown;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat libero consequuntur, totam consectetur facilis laudantium nemo sapiente voluptas, explicabo asperiores numquam nihil animi quis tempore perferendis molestiae ex. Neque, facilis!</p>
+    <input type="text" placeholder="text"><br>
+    <input type="number" placeholder="number"><br>
+    <input type="password" placeholder="password"><br>
+    <input type="mail" placeholder="mail">
+    <input type="checkbox">
+    <button>click me</button>
+</body>
+</html>

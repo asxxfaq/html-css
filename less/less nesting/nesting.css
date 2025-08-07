@@ -1,0 +1,17 @@
+nav {
+  background-color: aqua;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+  padding: 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: red;
+}

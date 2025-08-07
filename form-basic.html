@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="table.html">
+        <!-- name  -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="enter your name" required><br><br>
+        <!-- email  -->
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" placeholder="enter your email" required><br><br>
+        <!-- age  -->
+        <label for="age">Age:</label>
+        <input type="number" name=" age" id="age" placeholder="enter your age" required><br><br>
+        <!-- gender -->
+        <label for="gender">gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">other</label><br><br>
+        <!-- category -->
+        <select name="category" id="category">
+            <option value="sc">SC</option>
+            <option value="st">ST</option>
+            <option value="obc">OBC</option>
+            <!-- address -->
+        </select><br><br>
+        <label for="address">address:</label>
+        <textarea name="address" id="address"></textarea><br><br>
+        <!-- password -->
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <!-- confirm password -->
+        <label for="confirm_password">confirm password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+
+
+        <button type="submit">submit</button>
+
+
+
+    </form>
+</body>
+
+</html>

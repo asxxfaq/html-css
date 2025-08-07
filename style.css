@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+div{
+    height:800px;
+    width: 100%;
+}
+p{  text-align: center;
+    color: beige;
+    height:800px;
+    width: 100%;
+    background-image: url(messi.jpg);
+    background-size: cover;
+}
+.lorem2{
+    color: rgb(0, 88, 55);
+}
+.lorem{
+    background-color: azure;
+    text-align: center;
+    color: rgb(255, 204, 0);
+    
+}
+body h2{
+    font-size: large;
+    background-color: antiquewhite;
+    
+}
+#para
+{
+    color: beige;
+    background: none;
+}
+iframe{
+    border: 2px solid black;
+}
+h1,h2,h3{
+    background-color: beige;
+    text-align: center;
+    
+}

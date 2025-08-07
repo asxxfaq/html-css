@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .myphoto img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            border: 2px solid white;
+        }
+
+        .name {
+            text-align: center;
+        }
+
+        .name h2 {
+            color: lightblue;
+        }
+
+        .name h4 {
+            color: black;
+        }
+
+        .myphoto {
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-bottom: -10px;
+        }
+
+        :root {
+            --bg-color: #f0f4f8;
+            --primary: #2672ec;
+            --secondary: hsl(0, 5%, 38%);
+            --text-color: #333;
+            --header-color: #444;
+            --bar-bg: #ddd;
+            --bar-fill: #3b82f6;
+        }
+
+
+        body {
+            background-image: url(port.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Segoe UI', sans-serif;
+            color: var(--text-color);
+
+        }
+
+
+        .main1 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: -90px;
+        }
+
+        .main2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: -90px;
+        }
+
+        .one {
+            padding: 30px;
+            margin: 100px 10px 100px 100px;
+            flex: 1 1 250px;
+            background-color: var(--secondary);
+        }
+
+        .two {
+            padding: 30px;
+            flex: 1 1 20px;
+            margin: 100px 100px 10px 10px;
+            background-color: var(--primary);
+            height: 198px;
+
+        }
+
+        .three {
+            padding: 60px;
+            flex: 1 1 20px;
+            margin: 10px 10px 100px 100px;
+            background-color: var(--primary);
+            height: 132px;
+        }
+
+        .four {
+            padding: 60px;
+            margin: 10px 100px 10px 10px;
+            flex: 1 1 250px;
+            background-color: var(--secondary);
+            height: 132px;
+        }
+
+        .five {
+            padding: 60px;
+            margin: 10px 10px 100px 100px;
+            flex: 1 1 250px;
+            background-color: var(--secondary);
+        }
+
+        .six {
+            padding: 72px;
+            flex: 1 1 20px;
+            margin: 10px 100px 10px 10px;
+            background-color: var(--primary);
+            height: 140px;
+        }
+
+        .bar {
+            display: block;
+            background: var(--bar-bg);
+            height: 10px;
+            border-radius: 5px;
+            margin: 0px 0 15px;
+        }
+
+        .bar span {
+            display: block;
+            background: var(--bar-fill);
+            height: 100%;
+            border-radius: 5px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="myphoto">
+        <img src="myphoto.jpg">
+    </div>
+    <div class="name">
+        <h4>Hi, Iam Ashfaqe</h4>
+        <h2>Web Devoloper</h2>
+    </div>
+    <div class="main1">
+        <div class="one">
+            <h3>Profile</h3>
+            <p>>>>Hi, I’m Abdul Ashfaqe — a passionate and curious tech enthusiast with a BCA degree in Artificial
+                Intelligence, Virtual Reality, and Robotics from Srinivas University. I’m currently diving deep into
+                full-stack web development with the MERN stack (MongoDB, Express.js, React.js, Node.js), building
+                real-world applications and expanding my coding skills.
+
+                My background in futuristic technologies has shaped a problem-solving mindset and a hunger to innovate.
+                Whether it’s designing responsive web interfaces or exploring the boundaries of AI and immersive
+                technologies, I thrive on learning, adapting, and creating.
+
+                I’m always open to collaboration, feedback, and exciting opportunities to grow. Let’s build something
+                great together!</p>
+        </div>
+        <div class="two">
+            <h3>Skills</h3>
+            <p>PHP/MySQL/MongoDB <span class="bar"><span style="width:70%"></span></span></p>
+            <p>Node.js,React.js,Express.js <span class="bar"><span style="width:95%"></span></span></p>
+            <p>Html,CSS <span class="bar"> <span style="width:99%"></span></span></p>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="three">
+            <h3>Education</h3>
+            <p>Bachelor of Computer Applications (BCA) <br>
+                Specialization: Artificial Intelligence, Virtual Reality, and Robotics <br>
+                Srinivas University, India <br>
+                Expected Graduation: 2025</p>
+        </div>
+        <div class="four">
+            <h3>Languages</h3>
+            <ul>
+                <li>malayalam / Ind</li>
+                <li>English / Uk</li>
+                <li>Hindi / Ind</li>
+                <li>Arabic / Saudi</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main1">
+        <div class="five">
+            <h3>Contact</h3>
+            <p>Kasaragod<br>
+                7306614239<br>
+                abdulashfaqehere@gmail.com<br>
+                <a href="https://www.linkedin.com/in/abdul-ashfaqe-93016531b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Linkedin</a></p>
+        </div>
+        <div class="six">
+            <h3>Experiences</h3>
+            <p><strong>Website Development</strong><br>
+               Techolas technologies</p>
+            <p>Kozhikode,kerala</p>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p style="text-align: center;">&copy; 2025  Profile</p>
+    </footer>
+</body>
+
+</html>

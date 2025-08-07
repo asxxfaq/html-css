@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            margin-top: 30px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        button{
+        height: 20px;
+        width: 100px;
+        }
+        input{
+        height: 20px;
+        width: 100px;
+        }
+        .navbar {
+            flex: 1;
+            display: flex;
+            padding-left: 900px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav ul li{
+            margin-right: 30px;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        nav{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            width: 100%;
+            height: 50px;
+            position:sticky;
+            top: 0;
+            display: flex;
+            justify-content: left;
+            align-items: left;
+        }
+        a:active{
+            background-color: beige;
+        }
+       body button{
+        background-color: transparent;
+        border: 1px solid green;
+        color: green;
+        height: 20px;
+        width: 60px;
+        padding-right: 1px;
+        align-items: end;
+       }
+       .body{
+        width: 100%;
+        height: 250px;
+        background-color: blanchedalmond;
+        padding: 100px;
+        padding-left: 100px;
+        font-size: 25px; 
+       }
+        .main_div{
+            width: 60%;
+            height: 100px;
+            padding-left: 100px;
+            display: flex;
+            gap: 60px;
+            text-align: left;
+          }
+
+        .btn{
+            background-color: rgb(0, 200, 255); 
+            color: white; 
+            height: 40px; 
+            width: 90px;
+            border: none;
+            border-radius: 5px;
+        }
+        .btn1{
+            background-color: grey; 
+            color: white; 
+            height: 40px; 
+            width: 90px;
+            border: none;
+            border-radius: 5px;
+
+        }
+        </style>
+</head>
+<body>
+    <nav>
+        <ul type="none">
+            <li>Navbar</li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">disabled</a></li>
+            <li><a href="#">dropdown</a></li>
+        </ul>
+        <div class="navbar">
+        <input type="text" placeholder="search">
+        <button>search</button>
+    </div>
+    </nav>
+        <div class="body">
+        <h1>HELLO,WORLD!</h1>
+        <p style="font-size: 25px; align-items:center;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Ut numquam dolore repellendus alias provident minima, placeat, <br>deserunt pariatur nam ratione ex modi at obcaecati possimus porro totam enim deleniti cupiditate <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?</p>
+        <button class="btn">learn more>></button>
+        </div>  
+        <div class="main_div">
+    <div class="body1">
+        <h3> Heading </h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita eaque facere tenetur nobis aut. Qui fugiat delectus at? Quisquam quas reiciendis exercitationem accusamus sequi tenetur, rerum veritatis! Itaque reiciendis, culpa unde quasi commodi non minima ab rerum similique obcaecati rem ea totam veritatis odit aliquam!</p>
+        <button class="btn1">view details>></button></div>
+    <div class="body2">
+        <h3> Heading </h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita eaque facere tenetur nobis aut. Qui fugiat delectus at? Quisquam quas reiciendis exercitationem accusamus sequi tenetur, rerum veritatis! Itaque reiciendis, culpa unde quasi commodi non minima ab rerum similique obcaecati rem ea totam veritatis odit aliquam!</p>
+        <button class="btn1">view details>></button></div>
+    <div class="body3">
+        <h3> Heading </h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita eaque facere tenetur nobis aut. Qui fugiat delectus at? Quisquam quas reiciendis exercitationem accusamus sequi tenetur, rerum veritatis! Itaque reiciendis, culpa unde quasi commodi non minima ab rerum similique obcaecati rem ea totam veritatis odit aliquam!</p>
+        <button class="btn1">view details>></button></div>
+    </div>
+</body>
+</html>

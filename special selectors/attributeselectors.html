@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        input[required] {
+            border: 2px solid rgb(255, 0, 0);
+        }
+
+        input[type="email"] {
+            background-color: aqua;
+            border: 2px solid black;
+        }
+
+        div[class~="highlite"] {
+            background-color: yellow;
+        }
+
+        p[lang="en"] {
+            color: blue;
+        }
+
+        a[href^="https"] {
+            color: green;
+        }
+
+        img[src$=".jpg"] {
+            border: 2px dashed black;
+            width: 120px;
+        }
+        a[href*="about"]{
+            font-weight: bolder;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>CSS Attribute Selectors</h2>
+    <!-- FIRST METHOD     -->
+    <input type="text" placeholder="Your Name" required><br><br>
+    <!-- SECOND METHOD -->
+    <input type="email" placeholder="Your Mail" required><br><br>
+    <!-- THIRD METHOD  -->
+    <div class="box highlite">highlite box </div>
+    <!-- FOURTH METHOD  -->
+    <P lang="en">english paragraph</P>
+    <p>english</p>
+    <!-- FIFTH METHOD  -->
+    <a href="https://instagram.com">Login</a><br><br>
+    <!-- SIXTH METHOD  -->
+    <img src="bg.jpg" alt="sample"><br><br>
+    <!-- SEVENTH METHOD  -->
+    <a href="https://example.com/about">About Us</a>
+</body>
+
+</html>
